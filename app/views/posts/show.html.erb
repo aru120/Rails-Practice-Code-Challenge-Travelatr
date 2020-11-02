@@ -1,0 +1,10 @@
+<h1> <%= @post.title %></h1>
+
+<p><%= @post.content %></p>
+
+Likes: <p><%= @post.likes %></p>
+
+Destination: <%= link_to @post.destination.name, destination_path(@post.destination) %><br>
+Blogger: <%= link_to @post.blogger.name, blogger_path(@post.blogger) %>
+
+<%= button_to "Add like", post_like_path, method: :post %>

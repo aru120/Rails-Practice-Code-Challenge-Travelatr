@@ -40,7 +40,7 @@ Post:
 	- Users should be able to select a destination from a dropdown menu
 	- A post should have a title
 	- A post should have content longer than 100 characters
-2. Users should be able to see a post's page with its title and content displayed. On this page, a user should see:
+<!-- 2. Users should be able to see a post's page with its title and content displayed. On this page, a user should see:
 	- A link to the page of that post's author
 	- A link to the page of that post's destination
-	- A like button link that increases the like count for that post (should take the user to the same page)
+	- A like button link that increases the like count for that post (should take the user to the same page)-->

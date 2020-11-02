@@ -3,3 +3,9 @@
     <%= post.title%><br>
     <% end %>
 
+<% @destination.recent_posts.each do |post| %>
+<p><%= post.title %></p>
+<% end%><br><br>
+
+Most liked post: <%= link_to @destination.top_post.title, post_path(@destination.top_post) %><br>
+Average age of bloggers: <%= @destination.avg_age %>

@@ -2,3 +2,5 @@
     <% @blogger.posts.each do |post|%>
     <%= post.title%><br>
     <% end %>
+<hr>
+    Top Post: <%= link_to @blogger.top_post.title, post_path(@blogger.top_post) %>
